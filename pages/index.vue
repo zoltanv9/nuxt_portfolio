@@ -2,36 +2,15 @@
 import Header from "~/components/sections/Header.vue";
 import Hero from "~/components/sections/Hero.vue";
 import "~/assets/css/main.css"
+import AboutMe from "~/components/sections/AboutMe.vue";
+import Projects from "~/components/sections/Projects.vue";
 </script>
 
 <template>
   <Header />
   <Hero />
-  <section class="sub-section" id="about-me">
-    <div class="information">
-      <h2>About Me</h2>
-      <p>Hello. My name is Zoltan Simon. I am a Fullstack Web Developer with a passion for designing and programming
-        IT solutions for businesses.</p>
-    </div>
-
-  </section>
-  <section class="sub-section-alternative" id="projects">
-
-    <h2>Projects</h2>
-
-    <div class="project-container">
-
-      <div class="project-card">
-<!--        <img src="src/img/project1.png" alt="Project One" class="project-image">-->
-        <h3>Project One</h3>
-        <p class="subtext">This is my first project, a virtual travel agency site. I really enjoyed making this
-          project.</p>
-        <hr/>
-        <p class="subtext"><a href="/microtravel" class="project-link">View here</a></p>
-      </div>
-    </div>
-
-  </section>
+  <AboutMe />
+  <Projects />
   <footer id="contact">
     <h2>Contact me</h2>
     <div class="footer-form">

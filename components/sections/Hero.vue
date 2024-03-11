@@ -6,12 +6,12 @@
   <div class="hero" style="margin-top: 72px">
     <div class="flex justify-between items-center container mx-auto h-full">
       <div class="left-text">
-        <h1 style="font-size: 76px; line-height: normal">Zoltan Simon</h1>
+        <h1 style="font-size: 76px; line-height: normal;font-weight: 700">Zoltan Simon</h1>
         <p>Software Developer</p>
         <div class="flex justify-center items-center button"><a href="#about-me">About me</a></div>
       </div>
       <div class="headshot-container">
-        <img src="../../assets/img/self2-removebg-preview.png" alt="headshot" class="headshot">
+        <img src="../../assets/img/self-removebg-preview.png" alt="headshot" class="headshot">
       </div>
     </div>
   </div>

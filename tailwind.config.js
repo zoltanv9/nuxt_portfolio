@@ -1,13 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [],
+  corePlugins: {
+    preflight: false,
+  },
   theme: {
     extend: {
       width: {
         '1200': '1200px', // Add custom width of 1200px
       },
       screens: {
-        '3xl': '1920px',
       },
       container: {
         center: true,
@@ -17,8 +19,7 @@ export default {
           'md': '768px',
           'lg': '1024px',
           'xl': '1200px',
-          '2xl': '1200px',
-          '3xl': '1200px',
+          '2xl': '1480px',
         },
       },
     },
