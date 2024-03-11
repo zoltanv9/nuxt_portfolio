@@ -3,15 +3,15 @@
 </script>
 
 <template>
-  <div class="hero" style="margin-top: 72px">
-    <div class="flex justify-between items-center container mx-auto h-full">
-      <div class="left-text">
-        <h1 style="font-size: 76px; line-height: normal">Zoltan Simon</h1>
+  <div class="hero">
+    <div>
+      <div>
+        <h1>Zoltan Simon</h1>
         <p>Software Developer</p>
-        <div class="flex justify-center items-center button"><a href="#about-me">About me</a></div>
+        <div><a href="#about-me">About me</a></div>
       </div>
-      <div class="headshot-container">
-        <img src="../../assets/img/self2-removebg-preview.png" alt="headshot" class="headshot">
+      <div >
+        <img src="../../assets/img/self-removebg-preview.png" alt="headshot" class="headshot">
       </div>
     </div>
   </div>
@@ -23,7 +23,16 @@
   color: #EEF3FF;
   font-size: 40px;
   font-weight: 600;
-  height: calc(100vh - 72px);
+  height: 100vh;
+}
+
+.left_logo_text {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+
 }
 
 p {
@@ -44,14 +53,16 @@ p {
 }
 
 .headshot-container {
-  width: 290px;
-  height: 290px;
+  position: relative;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #BBDADA;
   overflow: hidden;
 }
 
+.headshot {
+  position: absolute;
+  top: -20px;
+}
 </style>
